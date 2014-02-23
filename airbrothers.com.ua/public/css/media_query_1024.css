@@ -1,0 +1,48 @@
+@media screen and (max-width: 1024px) and (min-width:840px){
+	#page_header{
+		min-height: 100px;
+		padding-right: 10px;
+		text-align: center;
+		margin-left: 10px !important;
+	}
+	#info{
+		margin-left: 30px !important;
+		padding-right: 10px;
+		margin-top: 10px!important;
+	}
+
+	.slides_container {
+		width:520px !important;
+		height:430px !important;
+		overflow:hidden;
+		display:none;
+		color: #000000;
+		margin-left: 100px;
+	}
+	#slides .slide {
+		width:520px !important;
+		height:410px !important;;
+		display:block;
+	}
+	.slider_img{
+		width:320px !important;
+		margin-top: 20px;
+	}
+	.slider_img img{
+		max-height: 380px !important;
+		max-width:600px !important;
+	}
+	#slides .next, #slides .prev {
+		position:absolute;
+		top:240px !important;
+		left:30px;
+		display:block;
+	}
+	#slides .next {
+		left: 635px !important;/*отступ стрелок*/
+	}
+	.pagination {
+		position: relative;
+		left: 300px !important;
+	}
+}

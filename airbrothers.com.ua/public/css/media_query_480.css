@@ -1,0 +1,246 @@
+@media screen and (max-width: 480px) {	
+	#wrap{
+    max-width: 100%;
+    height: 100%;	
+	}	
+	#container{
+    padding: 0;
+    max-width: 100%;
+	}	
+	#sidebar{
+	position:inherit;
+	display:block;
+    width: 100%;
+	height:160px;
+    background: #000000;
+	border-bottom:3px solid #ff6000;
+	
+	}
+	#main{	
+		margin: auto;
+		position:inherit;
+		width:140px;
+		height:270px;
+	}
+	#logo{
+	margin: 20px 30px 0 ;
+    width: 96px;
+    height: 50px;
+	text-align:center;
+    background: url('../images/logo.png') no-repeat;
+	}
+	#logo a {
+		width: 96px;
+		height: 50px;
+		display:block;
+	}
+	
+	
+	
+/*
+.menu{
+width: 140px !important;
+padding: 24px 0 0;
+color: #FFFFFF;
+font-size: 11px;
+}
+
+.menu ul.nav {
+margin-top: 0px;
+z-index: 10;
+background: #ff6000;
+position: absolute;
+border-radius: 3px;
+width: 160px !important;
+padding: 0;
+border: 1px solid #eee;
+
+}
+
+ul.nav li {
+display: none;
+padding: 3px 9px;
+list-style-type: none;
+border-top: 1px solid #efefef;
+}
+
+	
+	#menu{
+		top:40px;
+	}
+	.menu ul li{
+		width: 140px;
+		line-height: 30px;
+		text-align: center;
+		color:#ffffff;
+	}
+	.menu ul li a{
+		color:#ffffff;
+		font:12px Tahoma;
+		font-style: normal;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding: 0;
+	}
+	.selected{
+		color:#ffffff;
+		font:12px Tahoma;
+		text-decoration: none;
+		background: #ff6000;
+		position: relative;
+		display: block;
+		height: 26px;
+		width: 140px;
+	}
+	#line{
+		display:none;
+	}
+	.line_menu{
+	display:none;
+
+	}*/
+	.slides_container {
+		margin-top:240px;
+        width:0 !important;
+        height:0 !important;
+        overflow:hidden;
+        display:none;
+        color: #000000;
+        margin-left: 100px;
+    }
+	#air_info{
+		display:none;
+	}
+	#air_info .inform{
+		margin-top: -200px;
+	}
+
+	#question_button{
+		display: block;
+		width: 100px;
+		height: 26px;
+		background:#ff4700;
+		border-top:1px solid #ff701b;
+		-moz-border-radius: 7px; 
+		-webkit-border-radius: 7px; 
+		-khtml-border-radius: 7px;	    
+		border-radius:7px;
+		margin-bottom: 10px;
+		text-align:center;
+		text-decoration:none;
+		color:#FFFFFF;
+		font:13px Roboto;
+		line-height:24px !important;
+	}
+	#question_button:hover{
+			background:#ff6400;
+	}
+	#order_button{
+		display: block;
+		width: 100px;
+		 height: 26px;
+		background:#ff4700;
+		border-top:1px solid #ff701b;
+		-moz-border-radius: 7px; 
+		-webkit-border-radius: 7px; 
+		-khtml-border-radius: 7px;	    
+		border-radius:7px;
+		margin-bottom: 20px;
+		text-align:center;
+		text-decoration:none;
+		color:#FFFFFF;
+			font:13px Roboto;	
+		line-height:24px !important;
+		
+	}
+	#order_button:hover{
+		background:#ff6400;
+	}
+	.select_button1{
+			background:#ff6400!important;
+	}
+	.select_button2{
+			background:#ff6400!important;
+	}
+	#phone{
+		width: 140px;
+		height: 100px;
+		color:#ffffff;
+		font:16px Tahoma;
+	}
+	#phone_img{
+		background: url('../images/tel.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		margin-bottom: 8px;
+	}
+	#phone span{
+		display: block;
+		font:20px Tahoma;
+	}
+	.clear{
+		clear:both;
+	}
+	
+	
+	
+	#page_header{
+	margin: 0 10px 0 !important;
+	height:100px;
+	}
+	#page_header h2{
+		padding-top: 30px;
+		font-family: 'roboto bold'; 
+		font-weight:normal;
+		font-size: 29px;
+	}
+	#page_header p{
+		font-family: 'Roboto italic';
+		font-size: 24px;
+		margin-top:10px;
+	}
+
+	/*#slider*/
+	#slides{
+		position: relative;
+		overflow:visible  !important;
+			display:none!important;
+	}
+	.slides_container {
+		width:638px;
+		height:510px;
+		overflow:visible  !important;
+	display:none!important;
+		color: #000000;
+		margin-left: 100px;
+	}
+	#slides .slide {
+		width:636px;
+		height:510px;
+		display:none!important;
+	}
+	.slider_img{
+		width: 0;
+		height: 0;
+		margin-top: 20px;
+	}
+	#slides .next, #slides .prev {
+		position:absolute;
+		top:280px;
+		left:30px;
+		display:none!important;
+	}
+
+
+	/*#info*/
+	#info{
+		margin: 30px 10px 20px !important;
+	}
+	#news,#site,#design,#service ,#contact{
+		margin-left: 10px!important;
+	}
+	#contact h1:first-child,#news h1:first-child,#design h1:first-child,#site h1:first-child,#service h1:first-child{
+    font-size: 25px !important;
+	}
+
+}

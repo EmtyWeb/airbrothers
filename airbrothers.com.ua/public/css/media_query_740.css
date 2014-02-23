@@ -1,0 +1,55 @@
+@media screen and (max-width: 740px) and (min-width:480px){
+
+	#page_header{
+        min-height: 100px;
+        padding-right: 10px;
+        text-align: center;
+        margin-left: 10px !important;
+
+    }
+	#page_header article{
+	 min-height: 100px;
+	}
+    #info{
+        margin-left: 30px !important;
+        padding-right: 10px;
+        margin-top: 10px!important;
+    }
+	.slides_container {
+		margin-top:40px;
+        width:320px !important;
+        height:300px !important;
+        overflow:hidden;
+        display:none;
+        color: #000000;
+        margin-left: 100px;
+    }
+	#slides .slide {
+        width:320px !important;
+        height:230px !important;
+        display:block;
+		
+    }
+    .slider_img{
+        width:220px !important;
+        margin-top: 20px;
+    }
+    .slider_img img{
+        max-height: 280px !important;
+        max-width:320px !important;
+    }
+	#slides .next, #slides .prev {
+        position:absolute;
+        top:50% !important;
+        left:30px;
+        display:block;
+    }
+    #slides .next {
+        left: 440px !important;/*отступ стрелок*/
+    }
+    .pagination {
+        position: relative;
+		top:-20px;
+        left: 190px !important;
+    }
+}

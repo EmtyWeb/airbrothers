@@ -1,0 +1,75 @@
+#menu{
+    position: relative;
+    z-index: 1;
+    behavior: url("../../views/pie/PIE.htc");
+}
+#search{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#account_cab{
+    behavior: url("../../views/pie/PIE.htc");
+}
+.slides_container {
+    display:block;
+    overflow: hidden;
+
+    behavior: url("../../views/pie/PIE.htc");
+    background: #ffffff ;
+}
+.slides_img{
+    behavior: url("../../views/pie/PIE.htc");
+}
+.pagination {
+    //behavior: url("../../views/pie/PIE.htc");
+}
+#item_famous{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#item_new{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#item_center{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#item_center .item_content{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#work_cat{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#work_main_item{
+    behavior: url("../../views/pie/PIE.htc");
+}
+.work_item{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#registration_page{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#registration_content{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#reg_table tr td:last-child{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#reg_b{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#banner1{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#banner2{
+    behavior: url("../../views/pie/PIE.htc");
+}
+#slides .slide {
+    behavior: url("../../views/pie/PIE.htc");
+}
+#nav li:first-child a{
+   // border-left: 1px solid #5d5d5d;
+   // border-bottom: 1px solid #5d5d5d;
+    //border-top: 1px solid #5d5d5d;
+    border-radius:  15px;
+
+
+    behavior: url("../../views/pie/PIE.htc");
+}
